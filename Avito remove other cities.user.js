@@ -4,7 +4,7 @@
 // @include      *avito.ru/volgograd
 // @name         Avito remove other cities
 // @namespace    https://github.com/gerodoth/
-// @supportURL   https://github.com/gerodoth/Avito-remove-other-cities
+// @supportURL   https://github.com/gerodoth/Avito-remove-other-cities/blob/master/Avito%20remove%20other%20cities.user.js
 // @version      0.1
 // ==/UserScript==
 
