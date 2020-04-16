@@ -1,0 +1,22 @@
+// ==UserScript==
+// @author       gerodoth
+// @description  Avito remove other cities
+// @include      *avito.ru/volgograd
+// @name         Avito remove other cities
+// @namespace    https://github.com/gerodoth/
+// @supportURL   https://github.com/gerodoth/Avito-remove-other-cities
+// @version      0.1
+// ==/UserScript==
+
+(function () {
+    var interval = setInterval(hideListings, 1000);
+    function hideListings() {
+        var spans = document.querySelectorAll('[class^="geo-address"]');
+        var len = spans.length;
+        for (var i = 0; i < len; i++) {
+            if (spans[i].innerText != "Волгоград") {
+                spans[i].parentNode.parentNode.parentNode.remove();
+            }
+        }
+    }
+})();
