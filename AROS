@@ -4,7 +4,7 @@
 // @include      *avito.ru/volgograd
 // @name         Avito remove other cities
 // @namespace    https://github.com/gerodoth
-// @supportURL   https://github.com/gerodoth/Tampermonkey/blob/master/AROS.js
+// @supportURL   https://raw.githubusercontent.com/gerodoth/Tampermonkey/master/AROS
 // @version      0.4
 // ==/UserScript==
 
