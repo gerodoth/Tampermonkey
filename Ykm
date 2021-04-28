@@ -3,7 +3,7 @@
 // @description  Youtube kill mixes
 // @include https://www.youtube.com/*
 // @match        /^https?://youtube\.com
-// @name         Avito remove other cities
+// @name         Youtube kill mixes
 // @namespace    https://github.com/gerodoth
 // @supportURL   https://raw.githubusercontent.com/gerodoth/Tampermonkey/513ebe7eb8dff56af2fb7aef437994a348b192a7/Ykm
 // @version      0.3
