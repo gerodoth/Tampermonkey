@@ -5,7 +5,7 @@
 // @match        /^https?://youtube\.com
 // @name         Avito remove other cities
 // @namespace    https://github.com/gerodoth
-// @supportURL   https://github.com/gerodoth/Tampermonkey/blob/master/Ykm.js
+// @supportURL   https://raw.githubusercontent.com/gerodoth/Tampermonkey/513ebe7eb8dff56af2fb7aef437994a348b192a7/Ykm
 // @version      0.2
 // @grant none
 // ==/UserScript==
