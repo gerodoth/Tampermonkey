@@ -1,0 +1,32 @@
+// ==UserScript==
+// @author       gerodoth
+// @description  Youtube kill mixes
+// @include https://www.youtube.com/*
+// @match        /^https?://youtube\.com
+// @name         Avito remove other cities
+// @namespace    https://github.com/gerodoth
+// @supportURL   https://github.com/gerodoth/Tampermonkey/blob/master/Ykm.js
+// @version      0.2
+// @grant none
+// ==/UserScript==
+
+(function () {
+var interval = setInterval(hideListings, 2000);
+function hideListings() {
+var titles = document.querySelectorAll('[id^="video-title"]');
+var len = titles.length;
+for (var i = 0; i < len; i++) {
+if (/Микс|Джем/i.test (titles[i].innerText)){
+    if (/watch/i.test (window.location.href)){
+    titles[i].parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.remove();
+    }
+    else{
+    titles[i].parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.remove();
+    }
+    }
+ }
+    var sections = document.getElementsByClassName("ytd-rich-section-renderer");
+    for (i = 1; i < sections.length; i++)
+    {sections[i].remove;}
+}
+})();
