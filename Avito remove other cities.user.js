@@ -5,7 +5,7 @@
 // @name         Avito remove other cities
 // @namespace    https://greasyfork.org/users/gerodoth
 // @supportURL   https://github.com/gerodoth/Avito-remove-other-cities/blob/master/Avito%20remove%20other%20cities.user.js
-// @version      0.1
+// @version      0.2
 // ==/UserScript==
 
 (function () {
