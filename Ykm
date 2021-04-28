@@ -5,7 +5,7 @@
 // @match        /^https?://youtube\.com
 // @name         Youtube kill mixes
 // @namespace    https://github.com/gerodoth
-// @supportURL   https://raw.githubusercontent.com/gerodoth/Tampermonkey/513ebe7eb8dff56af2fb7aef437994a348b192a7/Ykm
+// @supportURL   https://raw.githubusercontent.com/gerodoth/Tampermonkey/master/Ykm
 // @version      0.3
 // @grant none
 // ==/UserScript==
